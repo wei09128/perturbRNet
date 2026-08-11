@@ -1,0 +1,13 @@
+export(prn_aggregate_pseudobulk)
+export(prn_fit_contrasts)
+export(prn_make_fingerprint)
+export(prn_build)
+export(prn_counterdirection)
+export(prn_edge_table)
+export(prn_summary)
+S3method(print,prn)
+importFrom(Matrix,Matrix)
+importFrom(Matrix,crossprod)
+importFrom(Matrix,Diagonal)
+importFrom(Matrix,sparseMatrix)
+
