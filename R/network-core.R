@@ -82,9 +82,9 @@ prn_build <- function(
   )
   norms <- sqrt(Matrix::colSums(W ^ 2))
   Wn <- W %*% Matrix::Diagonal(x = 1 / norms)
-  XtX <- as.matrix(Matrix::crossprod(Wn))
-  eigenvalues <- eigen(XtX, symmetric = TRUE, only.values = TRUE)$values
-  eigenvalues[eigenvalues < 0 & eigenvalues > -1e-8] <- 0
+  # Matrix multiplication by an unnamed Diagonal can drop regulator names.
+  # Preserve them because downstream activity and edge tables align by name.
+  dimnames(Wn) <- dimnames(W)
   lambda_grid <- 10 ^ seq(-4, 4, length.out = 81)
 
   fits <- lapply(colnames(fingerprint), function(comparison) {
@@ -92,19 +92,38 @@ prn_build <- function(
     ok <- is.finite(y)
     X <- Wn[ok, , drop = FALSE]
     yy <- y[ok]
-    local_XtX <- as.matrix(Matrix::crossprod(X))
-    Xty <- as.numeric(Matrix::crossprod(X, yy))
-    local_eigen <- if (all(ok)) eigenvalues else
-      eigen(local_XtX, symmetric = TRUE, only.values = TRUE)$values
+    n_obs <- length(yy)
+
+    # Fit y = intercept + X activity without densifying sparse X.
+    # The intercept is unpenalized. Centered cross-products are equivalent
+    # to explicitly centering every network column, but preserve sparsity.
+    x_mean <- as.numeric(Matrix::colMeans(X))
+    y_mean <- mean(yy)
+    raw_XtX <- as.matrix(Matrix::crossprod(X))
+    centered_XtX <- raw_XtX - n_obs * tcrossprod(x_mean)
+    centered_Xty <- as.numeric(Matrix::crossprod(X, yy)) -
+      n_obs * x_mean * y_mean
+    local_eigen <- eigen(
+      centered_XtX,
+      symmetric = TRUE,
+      only.values = TRUE
+    )$values
+    local_eigen[local_eigen < 0 & local_eigen > -1e-8] <- 0
 
     candidates <- if (is.null(lambda)) lambda_grid else as.numeric(lambda)
     fitted_candidates <- lapply(candidates, function(lam) {
-      activity <- solve(local_XtX + diag(lam, ncol(X)), Xty)
-      fitted <- as.numeric(X %*% activity)
+      activity <- solve(
+        centered_XtX + diag(lam, ncol(X)),
+        centered_Xty
+      )
+      intercept <- y_mean - sum(x_mean * activity)
+      fitted <- intercept + as.numeric(X %*% activity)
       rss <- sum((yy - fitted) ^ 2)
-      edf <- sum(local_eigen / (local_eigen + lam))
-      gcv <- (rss / length(yy)) / (1 - edf / length(yy)) ^ 2
-      list(lambda = lam, activity = activity, fitted = fitted,
+      # One additional effective degree of freedom for the intercept.
+      edf <- 1 + sum(local_eigen / (local_eigen + lam))
+      gcv <- (rss / n_obs) / (1 - edf / n_obs) ^ 2
+      list(lambda = lam, intercept = intercept,
+           activity = activity, fitted = fitted,
            rss = rss, effective_df = edf, gcv = gcv, ok = ok, y = y)
     })
     fitted_candidates[[which.min(vapply(

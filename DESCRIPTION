@@ -1,7 +1,7 @@
 Package: perturbRNet
 Type: Package
 Title: Perturbation Response Networks for Single-Cell and Single-Nucleus Omics
-Version: 0.1.0
+Version: 0.5.0
 Authors@R: person("Wei", "Chen", role = c("aut", "cre"), email = "wei09128@gmail.com")
 Description: Constructs perturbation response fingerprints and signed,
     context-resolved networks from donor-aware pseudobulk differential

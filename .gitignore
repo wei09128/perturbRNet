@@ -1,0 +1,40 @@
+
+# R build/check artifacts
+*.Rcheck/
+*.tar.gz
+
+# Logs and temporary files
+*.log
+*.logcd
+*.warnings.log
+
+# Large biological data
+*.h5ad
+*.h5
+*.hdf5
+*.loom
+*.rds
+*.RData
+*.rda
+
+# Generated benchmark output directories
+benchmark_*_quick/
+benchmark_*_final/
+benchmark_realdata_*/
+benchmark_end_to_end_*/
+benchmark_identifiability_*/
+benchmark_method_comparison_*/
+benchmark_uncertainty_*/
+
+# Local benchmark inputs/results
+benchmark5_nasa_fingerprint.csv
+benchmark5_signed_prior.csv
+
+# Python/R/editor caches
+__pycache__/
+*.py[cod]
+.Rhistory
+.RDataTmp
+.Rproj.user/
+.DS_Store
+Thumbs.db
