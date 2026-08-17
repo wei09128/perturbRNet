@@ -1,5 +1,5 @@
 # perturbRNet
-
+[![DOI](https://zenodo.org/badge/1337354193.svg)](https://doi.org/10.5281/zenodo.21984685)
 <p align="center">
   <img src="manuscript/figures/figure1_prn_workflow.png"
        width="900"
