@@ -45,7 +45,7 @@ For target gene \(g\):
 | \(M_g\) | `negative_input` | \(\sum_r\max(-e_{gr},0)\) | Magnitude of negative fitted contributions |
 | \(N_g\) | `net_input` | \(P_g-M_g\) | Net response fitted by the prior network |
 | \(G_g\) | `gross_input` | \(P_g+M_g\) | Total inferred input before cancellation |
-| \(C_g\) | `counterdirection` | \(G_g-|N_g|\) | Opposing input removed by cancellation |
+| \(C_g\) | `counterdirection` | \(G_g-\|N_g\|\) | Opposing input removed by cancellation |
 | \(B_g\) | `balance_fraction` | \(C_g/G_g\) | Fraction of gross input that is opposing |
 
 Here \(e_{gr}=W_{gr}\hat a_r\), where \(W\) is the signed prior and

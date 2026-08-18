@@ -1,0 +1,11 @@
+"treatment","endpoint","genes"
+"AZD","expression_restored",474
+"AZD","strong_counterbalanced_restoration_primary",0
+"AZD","low_amplitude_counterbalanced_restoration_exploratory",4
+"AZD","direct_restoration_conservative",440
+"AZD","restored_mechanism_unresolved",30
+"shATM","expression_restored",406
+"shATM","strong_counterbalanced_restoration_primary",3
+"shATM","low_amplitude_counterbalanced_restoration_exploratory",1
+"shATM","direct_restoration_conservative",369
+"shATM","restored_mechanism_unresolved",33

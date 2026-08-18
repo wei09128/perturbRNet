@@ -1,0 +1,9 @@
+"treatment","restoration_state","targets","formal_test"
+"AZD","direct_restoration",440,TRUE
+"AZD","mechanism_unresolved",30,TRUE
+"AZD","calibrated_restoration",13,TRUE
+"AZD","counterbalanced_candidates",4,FALSE
+"shATM","direct_restoration",369,TRUE
+"shATM","mechanism_unresolved",33,TRUE
+"shATM","calibrated_restoration",11,TRUE
+"shATM","counterbalanced_candidates",4,FALSE

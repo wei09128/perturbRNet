@@ -1,0 +1,19 @@
+Tissue,Group,samples
+Cortex,COV_2ms_C,2
+Cortex,COV_3ds_C,2
+Cortex,Saline_3d_C,3
+Cortex_Young,HD,3
+Cortex_Young,LD,3
+Cortex_Young,MD,2
+Cortex_Young,ctrl,3
+Cortex_Young,excluded_missing_group,1
+WholeBrain_Old,Control,4
+WholeBrain_Old,Rad1 HD,4
+WholeBrain_Old,Rad1 MD,4
+WholeBrain_Old,Rad2 HD,4
+WholeBrain_Old,Rad2 MD,3
+WholeBrain_Old,excluded_missing_group,1
+brain,AZD,4
+brain,Alz,4
+brain,Control,4
+brain,shATM,3

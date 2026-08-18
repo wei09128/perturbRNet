@@ -1,0 +1,13 @@
+{
+  "selection_status": "no_specification_met_balance_limit; best_balance_used",
+  "selected_specification": "ratio3_degree2",
+  "selected_ratio": 3,
+  "selected_degree_weight": 2,
+  "balance_limit": 0.1,
+  "selected_maximum_absolute_smd": 0.11237078594128187,
+  "matched_positives": 2428,
+  "matched_negatives": 7284,
+  "selection_used_outcomes": false,
+  "bootstrap_draws": 10000,
+  "seed": 20260827
+}

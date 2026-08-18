@@ -1,0 +1,6 @@
+"method","auroc","auprc"
+"abs_logfc_quietness",0.496428125,0.517905003477688
+"multivariate_ols_plus_counterdirection",0.76384453125,0.803088585233517
+"oracle_activity_plus_counterdirection",0.8729296875,0.85713635204833
+"ridge_prn",0.807735910331266,0.824632469249403
+"univariate_plus_counterdirection",0.82020390625,0.831638406767224

@@ -1,0 +1,13 @@
+{
+  "selection_status": "selected_outcome_blind_by_prespecified_balance_rule",
+  "selected_specification": "ratio3_degree4",
+  "selected_ratio": 3,
+  "selected_degree_weight": 4,
+  "balance_limit": 0.1,
+  "selected_maximum_absolute_smd": 0.09851281842356344,
+  "matched_positives": 251,
+  "matched_negatives": 753,
+  "selection_used_outcomes": false,
+  "bootstrap_draws": 10000,
+  "seed": 20260827
+}

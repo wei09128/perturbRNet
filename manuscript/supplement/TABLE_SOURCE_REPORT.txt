@@ -1,0 +1,115 @@
+===== Table S1: Simulation scenarios and performance =====
+       1,417  /mnt/c/Wei/RRN/PRNet/benchmark_end_to_end_quick/benchmark3_marginal_summary.csv
+         477  /mnt/c/Wei/RRN/PRNet/benchmark_end_to_end_quick/benchmark3_method_summary.csv
+      16,462  /mnt/c/Wei/RRN/PRNet/benchmark_end_to_end_quick/benchmark3_raw_results.csv
+       2,640  /mnt/c/Wei/RRN/PRNet/benchmark_end_to_end_v3.1_quick/benchmark3_marginal_summary.csv
+         518  /mnt/c/Wei/RRN/PRNet/benchmark_end_to_end_v3.1_quick/benchmark3_method_summary.csv
+      56,010  /mnt/c/Wei/RRN/PRNet/benchmark_end_to_end_v3.1_quick/benchmark3_raw_results.csv
+         440  /mnt/c/Wei/RRN/PRNet/benchmark_identifiability_v4.1_quick/benchmark4_associations.csv
+         619  /mnt/c/Wei/RRN/PRNet/benchmark_identifiability_v4.1_quick/benchmark4_geometry_by_signal.csv
+      67,596  /mnt/c/Wei/RRN/PRNet/benchmark_identifiability_v4.1_quick/benchmark4_raw_results.csv
+         294  /mnt/c/Wei/RRN/PRNet/benchmark_identifiability_v4_quick/benchmark4_associations.csv
+         195  /mnt/c/Wei/RRN/PRNet/benchmark_identifiability_v4_quick/benchmark4_geometry_by_signal.csv
+      56,638  /mnt/c/Wei/RRN/PRNet/benchmark_identifiability_v4_quick/benchmark4_raw_results.csv
+      49,539  /mnt/c/Wei/RRN/PRNet/benchmark_method_comparison_quick/method_comparison_activity.csv
+      94,403  /mnt/c/Wei/RRN/PRNet/benchmark_method_comparison_quick/method_comparison_classification.csv
+         335  /mnt/c/Wei/RRN/PRNet/benchmark_method_comparison_quick/method_comparison_summary.csv
+       2,977  /mnt/c/Wei/RRN/PRNet/benchmark_uncertainty_quick/benchmark2_gain_summary.csv
+       3,751  /mnt/c/Wei/RRN/PRNet/benchmark_uncertainty_quick/benchmark2_method_summary.csv
+     297,887  /mnt/c/Wei/RRN/PRNet/benchmark_uncertainty_quick/benchmark2_paired_results.csv
+     238,620  /mnt/c/Wei/RRN/PRNet/benchmark_uncertainty_quick/benchmark2_raw_results.csv
+
+===== Table S2: Norman threshold sensitivity =====
+         831  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/threshold_expression_sensitivity/primary_endpoint_by_expression_quintile.csv
+      20,862  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/threshold_expression_sensitivity/threshold_expression_performance.csv
+     100,239  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/threshold_expression_sensitivity/threshold_match_coverage.csv
+
+===== Table S3: Dataset, sample, and availability summary =====
+       1,354  /mnt/c/Wei/NASA/pipeline_config/samples.csv
+         399  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/balance_constrained_matching/BALANCE_CONSTRAINED_MANIFEST.json
+         583  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/collectri_prior/collectri_manifest.json
+         632  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/crossfit_benchmark/crossfit_manifest.json
+         489  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/expression_aware_matching/EXPRESSION_AWARE_MANIFEST.json
+         401  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/gemgroup_crossfit/forward_g1to4_discovery/balance_constrained_matching/BALANCE_CONSTRAINED_MANIFEST.json
+         401  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/gemgroup_crossfit/forward_g1to4_discovery/manifest.json
+         400  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/gemgroup_crossfit/reverse_g5to8_discovery/balance_constrained_matching/BALANCE_CONSTRAINED_MANIFEST.json
+         401  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/gemgroup_crossfit/reverse_g5to8_discovery/manifest.json
+       2,928  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/inventory/inventory_summary.json
+         286  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/inventory/matrix_diagnostics.csv
+         403  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/noise_standardized_crossfit/forward_g1to4_discovery/balance_constrained_matching/BALANCE_CONSTRAINED_MANIFEST.json
+         594  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/noise_standardized_crossfit/forward_g1to4_discovery/manifest.json
+         403  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/noise_standardized_crossfit/reverse_g5to8_discovery/balance_constrained_matching/BALANCE_CONSTRAINED_MANIFEST.json
+         594  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/noise_standardized_crossfit/reverse_g5to8_discovery/manifest.json
+         387  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/prn_crossfit_robustness/robustness_manifest.json
+         523  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/prn_crossfit_robustness_v2/ROBUSTNESS_V2_MANIFEST.json
+         346  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/response_atlas/atlas_manifest.json
+         321  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/stability/stability_manifest.json
+         468  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/threshold_expression_sensitivity/THRESHOLD_EXPRESSION_MANIFEST.json
+
+===== Table S4: Alzheimer restoration candidates and calibration =====
+         137  /mnt/c/Wei/AZD/brain/prn_analysis/final_azd_prn_validation/matched_set_diagnostics.csv
+       1,343  /mnt/c/Wei/AZD/brain/prn_analysis/final_azd_prn_validation/matched_set_test.csv
+         289  /mnt/c/Wei/AZD/brain/prn_analysis/final_azd_prn_validation/threshold_sensitivity_summary.csv
+         926  /mnt/c/Wei/AZD/brain/prn_analysis/final_state_calibration_200/AZD_counterbalanced_restoration_genes.csv
+   1,195,588  /mnt/c/Wei/AZD/brain/prn_analysis/final_state_calibration_200/calibration_AZD_vs_Control.csv
+   1,195,940  /mnt/c/Wei/AZD/brain/prn_analysis/final_state_calibration_200/calibration_shATM_vs_Control.csv
+         236  /mnt/c/Wei/AZD/brain/prn_analysis/final_state_calibration_200/degree_association_summary.csv
+         625  /mnt/c/Wei/AZD/brain/prn_analysis/prn_all5_calibration_quick_v2/degree_association_summary.csv
+   2,366,001  /mnt/c/Wei/AZD/brain/prn_analysis/prn_all5_calibration_quick_v2/final_state_calibration.csv
+       5,823  /mnt/c/Wei/AZD/brain/prn_analysis/restoration_classification_final/AZD_low_amplitude_candidates.csv
+       1,836  /mnt/c/Wei/AZD/brain/prn_analysis/restoration_classification_final/AZD_strong_candidates.csv
+   3,595,454  /mnt/c/Wei/AZD/brain/prn_analysis/restoration_classification_final/restoration_classification_all_genes.csv
+         509  /mnt/c/Wei/AZD/brain/prn_analysis/restoration_classification_final/restoration_classification_counts.csv
+       2,774  /mnt/c/Wei/AZD/brain/prn_analysis/restoration_classification_final/shATM_low_amplitude_candidates.csv
+       4,822  /mnt/c/Wei/AZD/brain/prn_analysis/restoration_classification_final/shATM_strong_candidates.csv
+   3,979,670  /mnt/c/Wei/AZD/brain/prn_analysis/restoration_classification_quick/restoration_classification_all_genes.csv
+         434  /mnt/c/Wei/AZD/brain/prn_analysis/target_calibration_quick/degree_association_summary.csv
+
+===== Table S5: NASA comparison-level PRN and null results =====
+       1,684  /mnt/c/Wei/NASA/prn_analysis/nasa_prn_comparison_summary.csv
+         183  /mnt/c/Wei/NASA/prn_analysis/nasa_prn_mapping_summary.csv
+       3,085  /mnt/c/Wei/NASA/prn_analysis/old_nulls_final/BENCHMARK5_SUMMARY.txt
+       2,695  /mnt/c/Wei/NASA/prn_analysis/old_nulls_final/benchmark5_null_comparison.csv
+       3,084  /mnt/c/Wei/NASA/prn_analysis/old_nulls_quick/BENCHMARK5_SUMMARY.txt
+       2,646  /mnt/c/Wei/NASA/prn_analysis/old_nulls_quick/benchmark5_null_comparison.csv
+         967  /mnt/c/Wei/NASA/prn_analysis/old_prn_results/prn_summary.csv
+       3,085  /mnt/c/Wei/NASA/prn_analysis/young_nulls_final/BENCHMARK5_SUMMARY.txt
+       2,700  /mnt/c/Wei/NASA/prn_analysis/young_nulls_final/benchmark5_null_comparison.csv
+       3,084  /mnt/c/Wei/NASA/prn_analysis/young_nulls_quick/BENCHMARK5_SUMMARY.txt
+       2,666  /mnt/c/Wei/NASA/prn_analysis/young_nulls_quick/benchmark5_null_comparison.csv
+         708  /mnt/c/Wei/NASA/prn_analysis/young_prn_results/prn_summary.csv
+
+===== Table S6: Norman validation and robustness =====
+         399  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/balance_constrained_matching/BALANCE_CONSTRAINED_MANIFEST.json
+       3,466  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/balance_constrained_matching/all_specification_balance.csv
+         387  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/balance_constrained_matching/selected_benchmark_metrics.csv
+       1,023  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/balance_constrained_matching/selected_pair_bootstrap.csv
+         632  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/crossfit_benchmark/crossfit_manifest.json
+         911  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/expression_aware_matching/benchmark_metrics.csv
+         767  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/expression_aware_matching/matching_balance.csv
+         891  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/expression_aware_matching/minimum_positive_sensitivity.csv
+       1,132  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/expression_aware_matching/pair_bootstrap_summary.csv
+         401  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/gemgroup_crossfit/forward_g1to4_discovery/balance_constrained_matching/BALANCE_CONSTRAINED_MANIFEST.json
+       3,476  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/gemgroup_crossfit/forward_g1to4_discovery/balance_constrained_matching/all_specification_balance.csv
+         387  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/gemgroup_crossfit/forward_g1to4_discovery/balance_constrained_matching/selected_benchmark_metrics.csv
+       1,035  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/gemgroup_crossfit/forward_g1to4_discovery/balance_constrained_matching/selected_pair_bootstrap.csv
+         401  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/gemgroup_crossfit/forward_g1to4_discovery/manifest.json
+         400  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/gemgroup_crossfit/reverse_g5to8_discovery/balance_constrained_matching/BALANCE_CONSTRAINED_MANIFEST.json
+       3,468  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/gemgroup_crossfit/reverse_g5to8_discovery/balance_constrained_matching/all_specification_balance.csv
+         384  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/gemgroup_crossfit/reverse_g5to8_discovery/balance_constrained_matching/selected_benchmark_metrics.csv
+       1,032  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/gemgroup_crossfit/reverse_g5to8_discovery/balance_constrained_matching/selected_pair_bootstrap.csv
+         401  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/gemgroup_crossfit/reverse_g5to8_discovery/manifest.json
+         403  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/noise_standardized_crossfit/forward_g1to4_discovery/balance_constrained_matching/BALANCE_CONSTRAINED_MANIFEST.json
+       3,452  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/noise_standardized_crossfit/forward_g1to4_discovery/balance_constrained_matching/all_specification_balance.csv
+         391  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/noise_standardized_crossfit/forward_g1to4_discovery/balance_constrained_matching/selected_benchmark_metrics.csv
+       1,040  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/noise_standardized_crossfit/forward_g1to4_discovery/balance_constrained_matching/selected_pair_bootstrap.csv
+         594  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/noise_standardized_crossfit/forward_g1to4_discovery/manifest.json
+         403  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/noise_standardized_crossfit/reverse_g5to8_discovery/balance_constrained_matching/BALANCE_CONSTRAINED_MANIFEST.json
+       3,457  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/noise_standardized_crossfit/reverse_g5to8_discovery/balance_constrained_matching/all_specification_balance.csv
+         387  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/noise_standardized_crossfit/reverse_g5to8_discovery/balance_constrained_matching/selected_benchmark_metrics.csv
+       1,050  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/noise_standardized_crossfit/reverse_g5to8_discovery/balance_constrained_matching/selected_pair_bootstrap.csv
+         594  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/noise_standardized_crossfit/reverse_g5to8_discovery/manifest.json
+         791  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/prn_crossfit_benchmark/benchmark_metrics.csv
+         301  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/prn_crossfit_robustness/matching_balance.csv
+       1,047  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/prn_crossfit_robustness_v2/optimal_pair_bootstrap_summary.csv
+       1,643  /mnt/c/Wei/RRN/PrNet_realdata/norman_analysis/prn_crossfit_robustness_v2/primary_and_order_sensitivity_metrics.csv

@@ -1,0 +1,11 @@
+field,value
+input_file,/mnt/c/Wei/RRN/PrNet_realdata/raw/Norman_2019.h5ad
+cells,111255
+genes,19018
+conditions,237
+single_conditions,105
+double_conditions,131
+pairs_analyzed,131
+expression_matrix,"X (normalized, noninteger)"
+exploratory_quiet_threshold,0.1
+exploratory_minimum_single_effect,0.1

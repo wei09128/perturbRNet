@@ -1,0 +1,10 @@
+"predictor","spearman_with_auprc","n"
+"pair_separation",-0.305952283050068,480
+"minimum_regulator_uniqueness",-0.306827545293581,480
+"rank_fraction",-0.0081184966516743,480
+"effective_rank_fraction",-0.294788179039217,480
+"median_counter_target_separation",-0.343086791030443,461
+"cancellation_strength",0.194418569028733,480
+"noise_sd",-0.0934746762500581,480
+"missing_fraction",-0.0010144784263191,480
+"sign_error",-0.662454412386371,480

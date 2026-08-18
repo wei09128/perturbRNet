@@ -1,0 +1,15 @@
+field,value
+discovery_splits,"[1, 2, 3, 4]"
+validation_splits,"[5, 6, 7, 8]"
+quiet_threshold,0.1
+minimum_single_effect,0.1
+minimum_consistent_splits_per_half,3
+pairs,131
+evaluation_rows,2258565
+heldout_positive_rows,502
+heldout_quiet_inactive_rows,2258063
+discovery_candidates,507
+confirmed_candidates,193
+model_input,mean double-perturbation response from discovery splits 1-4
+ground_truth,single and double responses from held-out splits 5-8
+caveat,"Independent cell subsets, not independent biological replicates."

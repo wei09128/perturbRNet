@@ -1,0 +1,24 @@
+{
+  "direction": "forward_g1to4_discovery",
+  "discovery_gemgroups": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "validation_gemgroups": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "active_single_z": 2.0,
+  "inactive_single_z": 1.0,
+  "quiet_double_z": 1.0,
+  "minimum_opposite_validation_gemgroups": 3,
+  "variance_prior_df": 4.0,
+  "variance_estimation": "condition-by-gene variance across discovery gemgroups, shrunk toward gene-wise median variance across conditions",
+  "label_rows": 1521060,
+  "positive_rows": 5949,
+  "caveat": "Technical z-scores from capture partitions; not biological replication."
+}

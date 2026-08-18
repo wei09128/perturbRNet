@@ -1,0 +1,55 @@
+Sample,Tissue,Group
+AZD_7368,brain,AZD
+AZD_7369,brain,AZD
+AZD_7393,brain,AZD
+AZD_7555,brain,AZD
+Alz_7459,brain,Alz
+Alz_7460,brain,Alz
+Alz_7461,brain,Alz
+Alz_7464,brain,Alz
+C1_C3_1,brain,Control
+C1_C3_2,brain,Control
+C1_C4_1,brain,Control
+C1_C4_2,brain,Control
+shATM_7402,brain,shATM
+shATM_7405,brain,shATM
+shATM_7406,brain,shATM
+X8F,Cortex,COV_2ms_C
+X7F,Cortex,COV_2ms_C
+X3F,Cortex,COV_3ds_C
+X4F,Cortex,COV_3ds_C
+X2F,Cortex,Saline_3d_C
+X5F,Cortex,Saline_3d_C
+X1F,Cortex,Saline_3d_C
+E01,Cortex_Young,HD
+E02,Cortex_Young,HD
+E03,Cortex_Young,
+E04,Cortex_Young,MD
+E05,Cortex_Young,LD
+E06,Cortex_Young,LD
+E07,Cortex_Young,ctrl
+E08,Cortex_Young,ctrl
+E09,Cortex_Young,HD
+E10,Cortex_Young,MD
+E11,Cortex_Young,LD
+E12,Cortex_Young,ctrl
+E27_1,WholeBrain_Old,Rad1 HD
+E29_1,WholeBrain_Old,Rad1 MD
+E29_2,WholeBrain_Old,Rad1 MD
+E31_1,WholeBrain_Old,Control
+E31_2,WholeBrain_Old,Control
+E38_1,WholeBrain_Old,Control
+E38_2,WholeBrain_Old,Control
+E39_2,WholeBrain_Old,Rad1 HD
+E39_3,WholeBrain_Old,Rad1 HD
+E40_1,WholeBrain_Old,Rad2 HD
+E40_2,WholeBrain_Old,Rad2 HD
+E40_3,WholeBrain_Old,
+E40_4,WholeBrain_Old,Rad2 MD
+E43_1,WholeBrain_Old,Rad1 HD
+E44_1,WholeBrain_Old,Rad1 MD
+E44_2,WholeBrain_Old,Rad1 MD
+E46_1,WholeBrain_Old,Rad2 HD
+E46_2,WholeBrain_Old,Rad2 HD
+E46_3,WholeBrain_Old,Rad2 MD
+E46_4,WholeBrain_Old,Rad2 MD

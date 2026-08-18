@@ -1,0 +1,21 @@
+{
+  "direction": "forward_g1to4_discovery",
+  "discovery_gemgroups": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "validation_gemgroups": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "quiet_threshold": 0.1,
+  "minimum_single_effect": 0.1,
+  "minimum_consistent_validation_gemgroups": 3,
+  "label_rows": 2254655,
+  "positive_rows": 502,
+  "caveat": "Technical capture-partition validation, not biological replication."
+}
